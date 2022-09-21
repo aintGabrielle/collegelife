@@ -1,0 +1,242 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(background.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    padding: 0;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+header #logo{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+header h2{
+    position: absolute;
+    margin: 0;
+    padding: 15px 80px;
+    background: rgb(244, 237, 169);
+    border: 6px solid rgb(177, 177, 177);
+    font-family: Helvetica neue;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 90px;
+    left: 120px;
+}
+ul{
+    display: flex;
+    gap: 2.5em;
+    position: relative;
+    bottom: 90px;
+    right: 60px;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    list-style: none;
+    background:rgb(244, 237, 169);
+    border: 6px solid rgb(177, 177, 177);
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.post{
+    position: absolute;
+    width: 100vw;
+    height: 1000px;
+    top: 30%;
+    display: flex;
+
+
+}
+.post .pics{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.first{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.names{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 27%;
+    
+}
+.names h1{
+    margin: 0;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.names h1:nth-child(1){
+    position: relative;
+    right: 50px;
+}
+.links{
+    z-index: 1;
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    top: 33%;
+
+}
+#jana{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+
+}
+#mj{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+
+}
+#ariane{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+}
+.logos{
+    z-index: 0;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 32%;
+
+}
+.logos img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logos .logo1{
+    position: relative;
+    right: 160px;
+    top: 10px;
+}
+
+hr{
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    background: black;
+}
+#line1{
+    position: absolute;
+    top: 31%;
+    left: 75px;
+}
+#line2{
+    position: absolute;
+    top: 31%;
+}
+#line3{
+    position: absolute;
+    top: 31%;
+    right: 100px;
+}
+.second{
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    top: 45%;
+}
+.second img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.sub-pics{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-names{
+    width: 100vw;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+}
+hr{
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    background: black;
+}
+#line-one{
+    position: relative; 
+    top: 69%;
+    right: 480px;
+}
+#line-two{
+    position: relative;
+    top: 67%;
+    left: 480px;
+}
+.link{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+.fb-logo{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+}
+.fb-logo img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+#one{
+    position: relative;
+    right: 175px;
+    bottom: 50px;
+}
+#two{
+    position: relative;
+    bottom: 50px;
+    right: 150px;
+}
+#mallete{
+    cursor: pointer;
+}
+#lloyd{
+    cursor: pointer;
+}
+p:hover{
+
+    position: relative;
+    transform: scale(1.1);
+    transition: 300ms ease-in all;
+}

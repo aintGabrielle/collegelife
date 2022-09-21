@@ -1,0 +1,8 @@
+{
+    "name": "College Life",
+    "version": "1.0",
+    "default": {
+        "default_icon": "bg.png",
+        "default_popup": "index.html"
+    }
+}
